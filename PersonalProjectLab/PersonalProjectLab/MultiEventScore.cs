@@ -35,6 +35,7 @@ namespace PersonalProjectLab
             return (PointsHJ);
         }
         public double CalculatePoints400m(double DEvent5)
+        {
             double Points400m = 1.53775 * Math.Pow((82 - DEvent5), 1.81);
             Points400m = Math.Round(Points400m, 0, MidpointRounding.ToEven);
             return (Points400m);
